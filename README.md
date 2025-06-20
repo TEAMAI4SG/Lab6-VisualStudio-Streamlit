@@ -215,7 +215,7 @@ py -m streamlit run streamlitTest.py
 ```
 
 - **Possible issue**: If you receive the following error:
-      - zsh: command not found: streamlit 
+- zsh: command not found: streamlit 
 		
 - Try uninstalling streamlit and reinstalling it in the terminal. You can do that with any of the following commands that work in your terminal:
 
