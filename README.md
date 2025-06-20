@@ -96,7 +96,7 @@ print("Hello World!")
 pip install --upgrade openai
 ```
 
-- **Possible issue**: If the above command does not work, try replacing pip with pip3 For further information, refer to the documentation here: [Quickstart tutorial - OpenAI API.](https://platform.openai.com/docs/quickstart?context=python)
+- **Possible issue**: If the above command does not work, try replacing **pip** with **pip3** For further information, refer to the documentation here: [Quickstart tutorial - OpenAI API.](https://platform.openai.com/docs/quickstart?context=python)
   
 - If still not working, try **“py -m pip install --upgrade openai”** (not including quotation mark)
   
@@ -105,7 +105,7 @@ pip install --upgrade openai
 - **Possible issue**: If you are on a Mac and you get either of the following errors:
     - zsh: command not found: python
     - zsh: command not found: py
-    - Make sure Python is actually installed after downloading it to your            computer. 
+    - Make sure Python is actually installed after downloading it to your                 computer. 
 
 ---
 
