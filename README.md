@@ -143,6 +143,120 @@ pip install streamlit
 - **Possible issue**: If the above command doesn’t work, try replacing         **pip** with **pip3**.
 - If still not working, try **“py -m pip install streamlit”** (not             including quotation mark)
 
+3. Next, copy the following code into your code editor, and fill in the commented part with your get_completions function from Lab 2: Text Generations. Also, don’t forget to use your own OpenAI API key! **Remember to save your file:**
+- For Mac: Command + S
+- For Windows: Ctrl + S
+
+```Python
+import streamlit as st 
+from openai import OpenAI
+
+client = OpenAI(api_key="INSERT YOUR API KEY HERE!") 
+
+# create a wrapper function
+def get_completion(prompt, model="gpt-3.5-turbo"):
+# INSERT THE BODY OF YOUR get_completions FUNCTION FROM LAB 2!
+
+# create our streamlit app
+with st.form(key = "chat"):
+    prompt = st.text_input("Insert a description of what your completions function does, and what kind of input you want a user to give it") # TODO!
+    
+    submitted = st.form_submit_button("Submit")
+    
+    if submitted:
+        st.write(get_completion(prompt))
+```
+
+4. To run this Streamlit application, first save the file (Ctrl + S or Command +S), and then enter the following command into the **terminal**, **NOT** using the ▷ button,. Here, we use **“streamlitTest.py”** because that’s what we named the file in Step 2.
+
+```Python
+streamlit run streamlitTest.py
+```
+
+
+After running this command, you should be able to see a very basic web application, shown below, consisting of an input box, by following the **local URL** Streamlit has printed in your terminal. Streamlit also offers many other frontend components, such as charts, a drawable canvas, and more! For your final project, feel free to look up whatever you may need in their documentation [here](https://docs.streamlit.io/library/api-reference).
+
+
+Finally, test the application in the browser by providing an input and check the output.
+
+
+- **Possible issue**: If you see an **error** “streamlit : The term 'streamlit' is not recognized as the name of a cmdlet, function, script file, or operable program.” , try the following command in the terminal instead:
+
+```Python
+python -m streamlit run streamlitTest.py
+```
+
+**OR**
+
+```Python
+python3 -m streamlit run streamlitTest.py
+```
+
+**OR**
+
+```Python
+py -m streamlit run streamlitTest.py
+```
+
+- **Possible issue**: If you receive the following error: 
+		- zsh: command not found: streamlit 
+		
+- Try uninstalling streamlit and reinstalling it in the terminal. You can do that with any of the following commands that work in your terminal:
+
+```Python
+# try any of these variations in your terminal to see which one works
+# option 1
+pip uninstall streamlit 
+
+# option 2 (works for MacOS) 
+pip3 uninstall streamlit 
+
+# option 3 (works for Windows)
+py -m pip uninstall streamlit 
+```
+
+- **Possible issue**: If you see a blank page on your browser, check 1) if you have saved your .py file before running and 2)  if your code is correct and complete.
+
+- **Possible issue:** If the browser does not show the desired output, check if your code is correct and complete.
+
+- **Possible issue:** You might run into an error that says: “Streamlit requires raw Python (.py) files, but the provided file has no extension.” If that is the case, delete the current .py file that you are working on and create a new one through VSCode then name it streamlitTest.py. 
+
+- **Possible issue:** In case you see an **error** “**Invalid value: File does not exist: …”**, that’s because your Python file does not exist in the folder that is shown on your terminal. You may want to use the cd command to access the folder where the Python file is located. In the screenshot below, I need to access the folder called “BUS118iS2024”, where the Python file is located. For more information about navigating the folders in the terminal, please see [here](https://www.ibm.com/docs/en/aix/7.1?topic=directories-changing-another-directory-cd-command).
+
+- If you keep getting multiple errors, try closing all your files and your VS Code window, re-open the files, and run the code again. You can also kill the terminal (click the trash can icon in the terminal) and run the code again.
+
+5. Finally, to stop the Streamlit server, press Ctrl+C in the terminal.
+
+---
+
+## 🎉 Congratulations, you have successfully finished the lab!
+Please submit your work as 
+1) a .py file and
+2) 2) screenshots of your output of Sec 2.1 in the terminal and
+3) output of Sec 3.1 from both the browser and in the terminal. To help protect your API security. 
+
+Please follow these steps before submitting:
+1) Please change your API key in your code to “my-api-key-here”
+
+---
+
+## 🔗 References
+- [Download Python](https://www.python.org/downloads/)
+- [Download Visual Studio Code - Mac, Linux, Windows](https://code.visualstudio.com/download)
+- [Get Started Tutorial for Python in Visual Studio Code](https://code.visualstudio.com/docs/python/python-tutorial#_create-a-python-source-code-file) 
+- [Python - Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=ms-python.python) 
+- [Quickstart tutorial - OpenAI API](https://platform.openai.com/docs/quickstart?context=python)
+- [Install Streamlit using command line](https://docs.streamlit.io/get-started/installation/command-line)
+- [API Reference - Streamlit Docs](https://docs.streamlit.io/library/api-reference) 
+- [Cheat sheet - Streamlit Docs](https://docs.streamlit.io/library/cheatsheet)
+
+
+
+
+
+
+
+
 
 
 
