@@ -71,7 +71,7 @@ A code editor is a crucial tool for developers, providing an environment to writ
 
 1. Open VS Code.
 
-![Picture 3](screenshots/Picture3.png)
+![Picture 3](screenshots/Picture3.jpg)
 
 2. Create a folder using “Open Folder” found on the top of the screen under “File”.
 
