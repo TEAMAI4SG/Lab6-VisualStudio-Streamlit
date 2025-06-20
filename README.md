@@ -2,7 +2,7 @@
 
 ---
 
-📘 Introduction
+## 📘 Introduction
 
 
 In this lab, we transition from mastering OpenAI's API capabilities in Python—ranging from text generation and image creation to transcription and prompt engineering on Colab—to applying these skills towards developing impactful AI projects for social good. As we move forward, the focus shifts to making these projects accessible through user-friendly web applications. To achieve this, we will introduce you to **Streamlit**, a powerful tool that simplifies the process of building and deploying data applications. Additionally, we will guide you through setting up your development environment in **Visual Studio Code (VS Code)**, complete with the Python Extension and Streamlit, ensuring a seamless workflow for your AI projects. 
