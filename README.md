@@ -134,7 +134,7 @@ pip install --upgrade pip
 pip install openai
 ```
 
--**Possible issue**: Alternatively, if you still encounter error about “import openai”, see it is possible that you need to [re-install](https://www.python.org/downloads/) Python again.
+- **Possible issue**: Alternatively, if you still encounter error about “import openai”, see it is possible that you need to [re-install](https://www.python.org/downloads/) Python again.
     - **References**: 
          -[stackoverflow](https://stackoverflow.com/questions/71873182/no-module-named-openai)
          -[Resolving Openai Import error stackoverflow](https://stackoverflow.com/questions/76320002/how-to-resolve-import-openai-could-not-be-resolved-error-pylance-with-pip-in)
