@@ -87,7 +87,7 @@ pip install --upgrade openai
   
 - If still not working, try **“py -m pip install --upgrade openai”** (not including quotation mark)
   
-- **Possible issue**: If you see an **error** “pip The term 'pip' is not recognized as the name of a cmdlet, function, or operable program”, it is possible you have different versions of Python. Try reinstall Python, or the [solution post](https://www.codewithharry.com/videos/general-python-errors-1/)
+- **Possible issue**: If you see an **error** “pip The term 'pip' is not recognized as the name of a cmdlet, function, or operable program”, it is possible you have different versions of Python. Try reinstall Python, or the solution post [here](https://www.codewithharry.com/videos/general-python-errors-1/)
   
 - **Possible issue**: If you are on a Mac and you get either of the following errors:
     - zsh: command not found: python
