@@ -50,7 +50,12 @@ A code editor is a crucial tool for developers, providing an environment to writ
 
 1. Navigate to the official Python [website](https://www.python.org/downloads/) and download the latest version of python that is compatible with your device. 
 
+![Picture 1](screenshots/Picture1.png)
+
+
 2. Navigate to the VS Code [platform](https://code.visualstudio.com/download) and install the latest version compatible with your device.
+
+![Picture 2](screenshots/Picture2.png)
 
 3. [Install](https://marketplace.visualstudio.com/items?itemName=ms-python.python) Python extension for VS Code.
 
