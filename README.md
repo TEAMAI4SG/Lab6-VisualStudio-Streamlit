@@ -52,7 +52,7 @@ A code editor is a crucial tool for developers, providing an environment to writ
 
 2. Navigate to the VS Code [platform](https://code.visualstudio.com/download) and install the latest version compatible with your device.
 
-3. [Install](https://marketplace.visualstudio.com/items?itemName=ms-python.python)Python extension for VS Code.
+3. [Install](https://marketplace.visualstudio.com/items?itemName=ms-python.python) Python extension for VS Code.
 
 4. Configure Python in VS Code:
     - Open VS Code and open the command palette.
