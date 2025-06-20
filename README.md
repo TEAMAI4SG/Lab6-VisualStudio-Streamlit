@@ -76,8 +76,8 @@ A code editor is a crucial tool for developers, providing an environment to writ
 2. Create a folder using “Open Folder” found on the top of the screen under “File”.
 
 3. From the File Explorer toolbar, select the New File button on the folder. Name it text_generation.py.
-    a. By using the .py file extension, you tell VS Code to interpret this file     as a Python program, so that it evaluates the contents with the Python          extension and the selected interpreter.
-    b. To test if your python interpreter is working, paste the following code      in your text_generation.py file.
+    1) By using the **.py file extension**, you tell VS Code to interpret this file     as a Python program, so that it evaluates the contents with the Python              extension and the selected interpreter.
+    2) To test if your python interpreter is working, paste the following code          in your text_generation.py file.
 
 ```Python
 print("Hello World!")
