@@ -61,9 +61,9 @@ A code editor is a crucial tool for developers, providing an environment to writ
 
 4. Configure Python in VS Code:
     - Open VS Code and open the command palette.
-        - For Mac, press Cmd+Shift+P
-        - For Windows, press Ctrl+Shift+P
-    - Type "Python: Select Interpreter" and press Enter. Choose the Python            interpreter you installed (e.g., "Python 3.13.6").
+        - For Mac, press **Cmd+Shift+P**
+        - For Windows, press **Ctrl+Shift+P**
+    - Type **"Python: Select Interpreter**" and press Enter. Choose the Python            interpreter you installed (e.g., "Python 3.13.6").
 
 ---
 
