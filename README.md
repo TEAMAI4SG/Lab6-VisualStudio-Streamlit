@@ -251,7 +251,7 @@ py -m pip uninstall streamlit
 
 ## 🎉 Congratulations, you have successfully finished the lab!
 Please submit your work as 
-1) .py file and
+1) A .py file and
 2) Screenshots of your output of Sec 2.1 in the terminal and
 3) Output of Sec 3.1 from both the browser and in the terminal. To help protect your API security. 
 
