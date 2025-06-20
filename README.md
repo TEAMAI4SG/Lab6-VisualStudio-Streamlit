@@ -94,6 +94,55 @@ pip install --upgrade openai
     - zsh: command not found: py
     - Make sure Python is actually installed after downloading it to your            computer. 
 
+---
+
+## 🧪 2.1 Test Run with Lab 2: Text Generation 
+
+1. Navigate to your Lab 2a: Text Generations CoLab, where you used OpenAI models to generate text given the prompt. 
+
+
+2. **Starting from the code cell that imports OpenAI**, copy the code from Lab 2a from **each cell** into your VS Code Python file (.py), NOT in terminal.
+
+ ```Python
+from openai import OpenAI
+```
+
+3. Run the file with the ▷ button and check for errors.
+
+- **Possible issue**: If you see an **error** “ImportError: No module named openai' it is possible that you have multiple versions of Python installed on your laptop, try the following command in the **terminal** instead. If the above command does not work, try replacing **pip** with **pip3**
+  
+- **Possible issue**: If you still get the error, try selecting different Python interpreters (you might have multiple). To do this in VS Code, press ctrl + shift + p on your keyboard. A text box should appear at the top of your window. Type in “Python: Select Interpreter” (without the quotation marks), Select “Python: Select Interpreter” and choose Python 3.12.2 (or whichever version you just downloaded). Then, try running your code again. If you have multiple interpreter paths, you can try all of them one by one. 
+
+```Python
+pip uninstall openai
+
+pip install --upgrade pip
+
+pip install openai
+```
+
+-**Possible issue**: Alternatively, if you still encounter error about “import openai”, see it is possible that you need to [re-install](https://www.python.org/downloads/) Python again.
+    - **References**: 
+         -[stackoverflow](https://stackoverflow.com/questions/71873182/no-module-named-openai)
+         -[Resolving Openai Import error stackoverflow](https://stackoverflow.com/questions/76320002/how-to-resolve-import-openai-could-not-be-resolved-error-pylance-with-pip-in)
+
+
+--- 
+
+## 🌐 3.1 Streamlit
+
+1. Now that you have your local coding environment set up, we can move on to methods for presenting your project. We will be using **Streamlit**, a free and open source framework that will allow us to create a user interface with just a few lines of code.
+
+2. Open VS Code, and create a new file. Name it streamlitTest.py. Then, copy the following command into the **terminal, not** in the Python file.
+- This command will install the streamlit Python package onto your computer so that you can use functions from it in your programs.
+
+```Python
+pip install streamlit
+```
+
+    - **Possible issue**: If the above command doesn’t work, try replacing         **pip** with **pip3**.
+    - If still not working, try **“py -m pip install streamlit”** (not             including quotation mark)
+
 
 
 
