@@ -140,8 +140,8 @@ pip install openai
 pip install streamlit
 ```
 
-    - **Possible issue**: If the above command doesn’t work, try replacing         **pip** with **pip3**.
-    - If still not working, try **“py -m pip install streamlit”** (not             including quotation mark)
+- **Possible issue**: If the above command doesn’t work, try replacing         **pip** with **pip3**.
+- If still not working, try **“py -m pip install streamlit”** (not             including quotation mark)
 
 
 
