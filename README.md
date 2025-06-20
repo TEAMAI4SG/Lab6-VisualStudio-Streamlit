@@ -71,6 +71,8 @@ A code editor is a crucial tool for developers, providing an environment to writ
 
 1. Open VS Code.
 
+![Picture 3](screenshots/Picture3.png)
+
 2. Create a folder using “Open Folder” found on the top of the screen under “File”.
 
 3. From the File Explorer toolbar, select the New File button on the folder. Name it text_generation.py.
@@ -82,7 +84,13 @@ print("Hello World!")
 ```
 4. Run the code using the ▷ button on the top right corner. Running the code should display the phrase “Hello World!” in the terminal
 
+![Picture 4](screenshots/Picture4.png)
+
+
 5. Finally, to finish setting up your environment for OpenAI development, we need to install the OpenAI library. Input the following command in your **terminal** and type enter, **not** in the Python file.
+
+![Picture 5](screenshots/Picture5.png)
+
 
 ```Python
 pip install --upgrade openai
@@ -178,11 +186,14 @@ with st.form(key = "chat"):
 streamlit run streamlitTest.py
 ```
 
+![Picture 6](screenshots/Picture6.png)
 
 After running this command, you should be able to see a very basic web application, shown below, consisting of an input box, by following the **local URL** Streamlit has printed in your terminal. Streamlit also offers many other frontend components, such as charts, a drawable canvas, and more! For your final project, feel free to look up whatever you may need in their documentation [here](https://docs.streamlit.io/library/api-reference).
 
 
 Finally, test the application in the browser by providing an input and check the output.
+
+![Picture 7](screenshots/Picture7.png)
 
 
 - **Possible issue**: If you see an **error** “streamlit : The term 'streamlit' is not recognized as the name of a cmdlet, function, script file, or operable program.” , try the following command in the terminal instead:
@@ -227,6 +238,10 @@ py -m pip uninstall streamlit
 - **Possible issue:** You might run into an error that says: “Streamlit requires raw Python (.py) files, but the provided file has no extension.” If that is the case, delete the current .py file that you are working on and create a new one through VSCode then name it streamlitTest.py. 
 
 - **Possible issue:** In case you see an **error** “**Invalid value: File does not exist: …”**, that’s because your Python file does not exist in the folder that is shown on your terminal. You may want to use the cd command to access the folder where the Python file is located. In the screenshot below, I need to access the folder called “BUS118iS2024”, where the Python file is located. For more information about navigating the folders in the terminal, please see [here](https://www.ibm.com/docs/en/aix/7.1?topic=directories-changing-another-directory-cd-command).
+
+
+![Picture 8](screenshots/Picture8.png)
+
 
 - If you keep getting multiple errors, try closing all your files and your VS Code window, re-open the files, and run the code again. You can also kill the terminal (click the trash can icon in the terminal) and run the code again.
 
